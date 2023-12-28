@@ -1,0 +1,15 @@
+one.html:1 [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) <input type=​"password" name id>​
+document.querySelectorAll('li');
+NodeList(4) [li.list-item, li.list-item, li.list-item, li.list-item]0: li.list-item1: li.list-item2: li.list-item3: li.list-itemlength: 4[[Prototype]]: NodeListentries: ƒ entries()forEach: ƒ forEach()length: 1name: "forEach"arguments: (...)caller: (...)[[Prototype]]: ƒ ()[[Scopes]]: Scopes[0]item: ƒ item()keys: ƒ keys()length: (...)values: ƒ values()constructor: ƒ NodeList()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.toStringTag): "NodeList"get length: ƒ length()[[Prototype]]: Object
+const tempList=document.querySelectorAll('li');
+undefined
+tempList[0].style.color="green";
+'green'
+document.querySelectorAll('h1')[0].style.co;
+undefined
+document.querySelectorAll('h1')[0].style.color="red";
+'red'
+tempList.forEach(function(l){})
+undefined
+tempList.forEach(function(l){l.style.backgroung="red"})
+undefined

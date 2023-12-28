@@ -1,0 +1,18 @@
+document.querySelector('ul');
+<ul>​<li class=​"list-item">​…​</li>​<li class=​"list-item">​…​</li>​<li class=​"list-item">​…​</li>​<li class=​"list-item">​…​</li>​</ul>​
+const myul=document.querySelector('ul');
+undefined
+my
+VM193:1 Uncaught ReferenceError: my is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM193:1
+myul.querySelector('li');
+<li class=​"list-item">​::marker​"one"</li>​
+const turnGreen=myul.querySelector('li');
+undefined
+turnGreen.style.backgroundColor="green";
+'green'
+turnGreen.style.padding="10px";
+'10px'
+turnGreen.innerText
+'one'

@@ -1,0 +1,10 @@
+document.getElementsByClassName('heading');
+HTMLCollection [h1#title.heading, title: h1#title.heading]
+document.querySelector('h1');
+<h1 id=​"title" class=​"heading">​…​</h1>​" DOM learning "<span style=​"display:​ none;​">​ test text ​</span>​</h1>​
+document.querySelector('#heading');
+null
+document.querySelector('#title');
+<h1 id=​"title" class=​"heading">​…​</h1>​
+document.querySelector('.heading');
+<h1 id=​"title" class=​"heading">​…​</h1>​

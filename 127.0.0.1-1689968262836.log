@@ -1,0 +1,10 @@
+title
+<h1 id=​"title" class=​"heading">​DOM learning​</h1>​
+title.textContent;
+'DOM learning'
+title.innerText
+'DOM learning'
+title.inerHTML
+undefined
+title.innerHTML
+'DOM learning'

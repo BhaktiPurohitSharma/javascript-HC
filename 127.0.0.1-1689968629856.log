@@ -1,0 +1,6 @@
+title.innerText
+'DOM learning'
+title.innerHTML
+'\n            DOM learning \n            <span style="display: none;">\n                 test text\n            </span>\n        '
+title.textContent;
+'\n            DOM learning \n            \n                 test text\n            \n        '

@@ -1,0 +1,21 @@
+one.html:1 [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) <input type=​"password" name id>​
+document.querySelector('ul');
+<ul>​<li class=​"list-item">​…​</li>​<li class=​"list-item">​…​</li>​<li class=​"list-item">​…​</li>​<li class=​"list-item">​…​</li>​</ul>​
+document.querySelector('inputType="password");
+VM1578:1 Uncaught SyntaxError: Invalid or unexpected token
+document.querySelector('input[Type="password"]);
+VM1593:1 Uncaught SyntaxError: Invalid or unexpected token
+document.querySelector('input[Type="password"]');
+<input type=​"password" name id>​
+const myul=document.querySelector('ul');
+undefined
+my
+VM1643:1 Uncaught ReferenceError: my is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1643:1
+myul.querySelector('li');
+<li class=​"list-item">​…​</li>​
+const turnGreen = myul.querySelector('li');
+undefined
+turnGreen.style.backgroundColor="green";
+'green'

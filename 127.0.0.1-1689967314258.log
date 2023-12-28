@@ -1,0 +1,12 @@
+document.getElementById('title');
+<h1 id=​"title" class=​"heading">​DOM learning​</h1>​
+document.getElementById('title').id;
+'title'
+document.getElementById('title').className;
+'heading'
+document.getElementById('title').getAttribute('title');
+null
+document.getElementById('title').getAttribute('class');
+'heading'
+document.getElementById('title').setAttribute('class','test');
+undefined
