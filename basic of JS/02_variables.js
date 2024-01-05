@@ -9,10 +9,5 @@ accountPassword="ss";
 accountCity="parbhani";
 //prefred not use var because of issue in block and function scope
 
-
-
-
-
-
 console.log(accountId);
 console.table([accountId,accountEmail,accountPassword,accountPassword,accountState]);

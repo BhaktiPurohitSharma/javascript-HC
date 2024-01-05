@@ -19,7 +19,7 @@ function loginMessage(username="sam")//if you want to give default value
 }
 
 console.log(loginMessage());
-console.log(loginMessage("BHakti"));
+console.log(loginMessage("Bhakti"));
 
 
 // ... is called rest operator

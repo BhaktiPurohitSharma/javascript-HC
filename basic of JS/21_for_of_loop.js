@@ -1,9 +1,10 @@
-// for of
-
+// for of loop
+//used mainly for higher order Array itretor
 // ["", "", ""] string array
 // [{}, {}, {}] object array
 
 const arr = [1, 2, 3, 4, 5]
+
 
 for (const num of arr) {
     //console.log(num);
@@ -15,6 +16,7 @@ for (const greet of greetings) {
 }
 
 // Maps
+//duplicate value not stored
 
 const map = new Map()
 map.set('IN', "India")
@@ -23,7 +25,11 @@ map.set('Fr', "France")
 map.set('IN', "India1")
 
 
- //console.log(map);
+  console.log(map); // Map(3) {
+                    //     'USA' => 'United States of America',
+                    //     'IN' => 'India1',
+                    //      'Fr' => 'France'
+                    //   }
 
 for (const [key, value] of map) { //destructring of array
     // console.log(key, ':-', value);

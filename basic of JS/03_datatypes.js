@@ -20,6 +20,6 @@ let state;
 
 
 //object
-
+console.log(typeof("bhakti"));
 console.log(typeof(undefined));//undefined
 console.log(typeof(null)); //object

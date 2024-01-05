@@ -1,11 +1,9 @@
 //you can declare object two ways
-//litrate way and constructor way
+//litrate way and constructor way(object.create)
 //when it declare as constructor way it behaves as singleton
 
 //object literals
 const mySym=Symbol("key1");
-
-
 
 const JsUser={
     name:"bhakti",
@@ -15,13 +13,14 @@ const JsUser={
     post:"software developer",
     isLoggedIn:false,
     workingDays:["mon","tue","wed","thr","fri"],
-    [mySym]:"key1"
+    [mySym]:"key1", //datatype symbol
+   // mySym:"key2" //datatype string
 }
 
 console.log(JsUser);
 
-console.log(JsUser.lang);
-console.log(JsUser["lang"]); //ideal way 
+console.log(JsUser.lang); //java
+console.log(JsUser["lang"]); //java //ideal way 
 console.log(JsUser["company"]); //abc
 console.log(JsUser[mySym]);
 
@@ -49,7 +48,8 @@ JsUser2.greeting=function(){
 
 
 
-console.log(JsUser2.greeting); //[Function (anonymous)]
+console.log(JsUser2.greeting); //[Function (anonymous)] 
+                                
 console.log(JsUser2.greeting()); // hello js user undefined
 
 JsUser2.greetingTwo=function(){
