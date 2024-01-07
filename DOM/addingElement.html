@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    const dev=document.createElement('div');
+    dev.id=Math.round(Math.random()*10+1)
+    dev.className="devclass"
+    dev.setAttribute("title","devTitle")
+    dev.style.backgroundColor="blue"
+    dev.style.padding="20px"
+    dev.innerText="Bhakti purohit Sharma"
+    //console.log(dev);
+    document.body.appendChild(dev)
+
+    const ul=document.createElement('ul')
+    const addText=document.createTextNode("Saachi sharma");
+    ul.appendChild(addText);
+    dev.appendChild(ul)
+    console.log(ul);
+
+
+
+
+</script> 
+</body>
+
+</html>

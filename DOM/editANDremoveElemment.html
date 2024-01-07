@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Example of adding ,editing and removing element from dom</h4>
+    <ul class="lang">
+        <li>JavaScript</li>
+    </ul>
+
+
+    <script>
+        //adding 
+        //regular method but always travel domtree thats leds to more time consuming
+        const rli=(langName)=>{
+            const addli=document.createElement('li')
+            addli.innerText=`${langName}`
+            document.querySelector('.lang').appendChild(addli)  
+        }
+        rli('phython');
+        //optimized way to do same
+        const oli=(langName)=>{
+            const addli=document.createElement('li')
+            addli.appendChild(document.createTextNode(langName))
+            document.querySelector('.lang').appendChild(addli)  
+        }
+        oli('java');
+        oli('html');
+        oli('css');
+        oli('sql');
+        oli('jsp');
+
+        //editing
+        const selectedLang=document.querySelector('li:nth-child(2)')
+        const newLi=document.createElement('li')
+        newLi.textContent="Mojo"
+        selectedLang.replaceWith(newLi)
+
+        //editing
+        const firstLang=document.querySelector('li:first-child')
+        firstLang.outerHTML='<li>TypeScript</li>'
+
+        //removing
+        const lastLang=document.querySelector('li:last-child')
+        lastLang.remove()
+
+    </script>
+</body>
+</html>
