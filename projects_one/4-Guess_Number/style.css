@@ -7,17 +7,17 @@ body {
   max-width: 750px;
   min-width: 480px;
   margin: 0 auto;
-  background-color: #212121;
+  background-color: #626466;
 }
 
 .lastResult {
   color: white;
-  padding: 7px;
+  padding: 5px;
 }
 
 .guesses {
   color: white;
-  padding: 7px;
+  padding: 5px;
 }
 
 button {
@@ -40,7 +40,7 @@ button {
   border-radius: 10px;
   font-size: 20px;
   border-style: none;
-  margin-top: 50px;
+  margin-top: 20px;
   /* margin-left: 75px; */
 }
 
@@ -58,14 +58,14 @@ button {
 }
 
 #guess {
-  font-size: 55px;
+  font-size: 30px;
   /* margin-left: 90px; */
-  margin-top: 120px;
+  margin-top: 100px;
   color: #fff;
 }
 
 .guesses {
-  background-color: #7a7a7a;
+  color: aqua;
 }
 
 #wrapper {
@@ -73,19 +73,22 @@ button {
   text-align: center;
   width: 450px;
   height: 550px;
+  overflow: auto;
   background-color: #474747;
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
+  border-radius: 20px;
 }
 
-h1 {
+h2 {
   background-color: #161616;
 
   color: #fff;
   text-align: center;
+  text-decoration:underline overline ;
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
 }
